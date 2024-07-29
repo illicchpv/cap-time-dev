@@ -50,7 +50,7 @@
             <li class="cart__list-item">
               <img class="cart__item-image" src="./image/chai/photo-2.jpg" alt="Кокосовая матча">
 
-              <h3 class="cart__title">Кокосовая матча</h3>
+              <h3 class="cart__item-title">Кокосовая матча</h3>
 
               <div class="cart__item-count-block" style="display:flex;">
                 <button class="cart__item-count-dec"> - </button>
@@ -58,7 +58,7 @@
                 <button class="cart__item-count-inc"> + </button>
               </div>
 
-              <p class="product__price">390 ₽</p>
+              <p class="cart__item-price">390 ₽</p>
             </li>
           </ul>
 
@@ -70,7 +70,7 @@
             <p class="cart__total-price">2200 ₽</p>
           </div>
 
-          <button class="cart__total-button">2200 ₽</button>
+          <button class="cart__total-button" type="submit" form="delivery-form">Заказать</button>
         </div>
       </div>
     </section>
@@ -79,32 +79,28 @@
       <div class="container delivery__container">
         <h2 class="delivery__title">Доставка</h2>
 
-        <form>
-          <input class="delivery__input delivery__input_name" name="name" type="text" placeholder="Имя">
+        <form id="delivery-form">
+          <fieldset class="delivery__data-fields">
+            <input class="delivery__input delivery__input_name" name="name" type="text" placeholder="Имя">
 
-          <input class="delivery__input delivery__input_phone" name="phone" type="tel" placeholder="Телефон">
+            <input class="delivery__input delivery__input_phone" name="phone" type="tel" placeholder="Телефон">
 
-          <input class="delivery__input delivery__input_address" name="address" type="text" placeholder="Адрес">
+            <input class="delivery__input delivery__input_address" name="address" type="text" placeholder="Адрес">
+          </fieldset>
 
-          <ul class="delivery__pay-types">
-            <li>
-              <h3 class="delivery__pay-types-title">Оплата:</h3>
-            </li>
+          <fieldset class="delivery__options">
+            <h3 class="delivery__pay-types-title">Оплата:</h3>
 
-            <li>
-              <label>
-                <input class="delivery__pay-type" type="radio" name="pay-type">
-                картой
-              </label>
-            </li>
+            <label>
+              <input class="delivery__pay-type" type="radio" name="pay-type">
+              картой
+            </label>
 
-            <li>
-              <label>
-                <input class="delivery__pay-type" type="radio" name="pay-type" checked>
-                картой
-              </label>
-            </li>
-          </ul>
+            <label>
+              <input class="delivery__pay-type" type="radio" name="pay-type" checked>
+              картой
+            </label>
+          </fieldset>
         </form>
 
       </div>

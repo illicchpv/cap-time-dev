@@ -13,3 +13,7 @@ day1
   Создать cart.html и написать разметку html для страницы корзины
 
 https://github.com/illicchpv/cap-time-dev/tree/day1-home
+
+---
+day2  
+

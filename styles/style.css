@@ -187,3 +187,49 @@ img {
   font-weight: 400;
   font-size: 20px;
 }
+
+/* footer */
+.footer {
+  padding: 60px 0;
+  background-color: #6cb9ab;
+  color: #fff;
+}
+
+.footer__container {
+  display: grid;
+  gap: 38px;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: space-between;
+}
+.footer__logo-link {
+}
+.footer__logo {
+}
+.footer__nav {
+}
+.footer__menu {
+}
+.footer__menu-item {
+}
+.footer__menu-link {
+}
+.footer__info {
+}
+.footer__copyfight {
+}
+.footer__developers {
+}
+.footer__developer {
+}
+.footer__developer-link {
+}
+.footer__contacts {
+}
+.footer__email {
+}
+.footer__social {
+}
+.footer__social-item {
+}
+.footer__social-link {
+}
